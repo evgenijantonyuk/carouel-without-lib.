@@ -1,0 +1,62 @@
+
+
+.nature-picture {
+    margin-top: 50px;
+}
+
+.carousel-button {
+    padding: 7px 15px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.carousel {
+    max-width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+
+.slides  {}
+
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+}
+
+.slide[data-active] {
+    opacity: 1;
+}
+
+.slide > img {
+    display: block;
+    max-width: 700px;
+    height: 600px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.carousel-button {
+    position: absolute;
+    z-index: 2;
+    font-size: 50px;
+    cursor: pointer;
+    top: 70%;
+    transform: translateY(-70%);
+    color: #000;
+    text-align: center;
+    transition: color .3s;
+}
+
+.carousel-button:hover {
+    color: #8d8a8a;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
