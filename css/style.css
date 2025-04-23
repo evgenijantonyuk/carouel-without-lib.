@@ -1,4 +1,13 @@
+* {
+    font-family: Arial, sans-serif;
+}
 
+.nature-picture > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 .nature-picture {
     margin-top: 50px;
@@ -58,5 +67,20 @@
 
 .next {
     right: 20px;
+}
+
+@media (max-width: 1040px) {
+    .carousel-button {
+        font-size: 30px;
+        /*top: 0;*/
+    }
+    .slide > img {
+        height: 340px;
+    }
+}
+@media (max-width: 680px) {
+    .carousel-button {
+        top: 0;
+    }
 }
 
